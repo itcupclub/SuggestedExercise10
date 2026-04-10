@@ -132,7 +132,7 @@ $selectedCustomer = ($selectedCustomerId && isset($customers[$selectedCustomerId
                                       <?php foreach ($customerOrders as $order): ?>
                                       <tr>
                                           <td class="mdl-data-table__cell--non-numeric">
-                                              <img src="images/tinysquare/<?php echo urlencode($order['isbn']); ?>.jpg" alt="Cover" width="50" height="50">
+                                              <img src="./images/tinysquare/<?php echo urlencode($order['isbn']); ?>.jpg" alt="Cover" width="50" height="50">
                                           </td>
                                           <td class="mdl-data-table__cell--non-numeric"><?php echo htmlspecialchars($order['isbn']); ?></td>
                                           <td class="mdl-data-table__cell--non-numeric"><?php echo htmlspecialchars($order['title']); ?></td>
