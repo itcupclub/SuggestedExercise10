@@ -15,7 +15,7 @@ $selectedCustomer = ($selectedCustomerId && isset($customers[$selectedCustomerId
 <html lang="en">
 
 <head>
-    <title>CISC3003 Suggested Exercise 10</title>
+    <title>DC325713 Chan Hio Tou</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -151,7 +151,9 @@ $selectedCustomer = ($selectedCustomerId && isset($customers[$selectedCustomerId
            
             </div>  </section>
     </main>    
-</div>    <script>
+</div>
+    <footer>CISC3003 Web Programming: DC325713 Chan Hio Tou 2026</footer>
+    <script>
     $(document).ready(function() {
         $('.sparkline').sparkline('html', {
             type: 'bar',
